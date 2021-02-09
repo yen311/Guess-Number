@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+body {
+  background-color: #333;
+  font-family: "Press Start 2P", sans-serif;
+  color: white;
+}
+h1 {
+  text-align: center;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top {
+  height: 120px;
+  border-bottom: 5px solid white;
+}
+
+.again {
+  position: absolute;
+  top: 2%;
+  left: 5%;
+  font-family: inherit;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+}
+
+.between {
+  position: absolute;
+  top: 2%;
+  right: 5%;
+}
+.number {
+  /* centring the number in the middle of the box, line height should be same with div height.*/
+  text-align: center;
+  line-height: 130px;
+  font-size: 26px;
+  width: 150px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -78px;
+  background-color: white;
+  color: black;
+}
+
+.left {
+  position: absolute;
+  left: 10%;
+  top: 60%;
+  text-align: center;
+}
+
+.right {
+  position: absolute;
+  left: 60%;
+  top: 60%;
+}
+
+.guess {
+  color: white;
+  background-color: #333;
+  border: 5px solid white;
+  display: block;
+  width: 250px;
+  height: 80px;
+  margin-bottom: 20px;
+  font-family: inherit;
+  text-align: center;
+  font-size: 16px;
+}
+
+.check {
+  font-family: inherit;
+  width: 180px;
+  height: 50px;
+}
+
+.startGuess {
+  margin-bottom: 80px;
+}
